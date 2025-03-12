@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="primaryColor">#6200EE</color>
+    <color name="primaryLightColor">#BB86FC</color>
+    <color name="primaryDarkColor">#3700B3</color>
+    <color name="secondaryColor">#03DAC5</color>
+    <color name="secondaryLightColor">#6FF9FF</color>
+    <color name="secondaryDarkColor">#018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="lightGrey">#FAFAFA</color>
+    <color name="darkGrey">#616161</color>
+    <color name="orange">#FF9800</color>
+
+    <color name="primaryColorTransparent">#806200EE</color> <!-- 50% transparency -->
+    <color name="secondaryColorTransparent">#4003DAC5</color> <!-- 25% transparency -->
+    <color name="whiteTransparent">#B3FFFFFF</color> <!-- 70% transparency -->
+</resources>

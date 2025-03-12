@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">SenCare</string>
+    <string name="detail_patient_name">Nom: %s</string>
+    <string name="detail_patient_prenom">Prénom: %s</string>
+    <string name="detail_patient_date_naissance">Date de Naissance: %s</string>
+    <string name="detail_patient_telephone">Téléphone: %s</string>
+    <string name="detail_patient_adresse">Adresse: %s</string>
+    <string name="detail_patient_formule">Formule: %s</string>
+    <string name="select_formule">Sélectionner une formule</string>
+</resources>

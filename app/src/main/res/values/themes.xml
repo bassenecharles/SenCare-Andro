@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Theme.SenCare" parent="android:Theme.Material.Light.NoActionBar">
+        <item name="colorPrimary">@color/primaryColor</item>
+        <item name="colorPrimaryVariant">@color/primaryDarkColor</item>
+        <item name="colorSecondary">@color/secondaryColor</item>
+        <item name="android:colorBackground">@color/white</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:statusBarColor">@color/primaryDarkColor</item>
+    </style>
+
+    <style name="Theme.SenCare.AppCompatTransparent" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/primaryColorTransparent</item>
+        <item name="colorPrimaryVariant">@color/primaryDarkColor</item>
+        <item name="colorSecondary">@color/secondaryColorTransparent</item>
+        <item name="android:colorBackground">@color/whiteTransparent</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:statusBarColor">@color/primaryDarkColor</item>
+    </style>
+
+    <style name="MyCustomTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Your custom theme attributes here -->
+    </style>
+    <style name="AppTheme">
+        <!-- Your theme attributes here -->
+    </style>
+</resources>

@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@color/whiteTransparent">
+
+    <EditText
+        android:id="@+id/patient_name_edit_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Name"
+        android:inputType="textPersonName"
+        android:layout_marginBottom="8dp"/>
+
+    <EditText
+        android:id="@+id/patient_prenom_edit_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Prenom"
+        android:inputType="textPersonName"
+        android:layout_marginBottom="8dp"/>
+
+    <EditText
+        android:id="@+id/patient_date_naissance_edit_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Date de Naissance"
+        android:visibility="gone"/>
+
+    <TextView
+        android:id="@+id/patient_date_naissance_text_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Date de Naissance"
+        android:textSize="18sp"
+        android:layout_marginBottom="8dp"/>
+
+    <Button
+        android:id="@+id/patient_date_naissance_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Choisir une date"
+        android:layout_marginBottom="8dp"/>
+
+    <EditText
+        android:id="@+id/patient_telephone_edit_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Numéro de Téléphone"
+        android:inputType="phone"
+        android:layout_marginBottom="8dp"/>
+
+    <EditText
+        android:id="@+id/patient_adresse_edit_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Adresse"
+        android:inputType="textPostalAddress"
+        android:layout_marginBottom="8dp"/>
+
+    <EditText
+        android:id="@+id/editTextMedecinTraitant"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Médecin traitant"
+        android:layout_marginBottom="8dp" />
+
+    <EditText
+        android:id="@+id/editTextNumMedecin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Numéro du médecin"
+        android:inputType="phone"
+        android:layout_marginBottom="8dp" />
+
+    <Spinner
+        android:id="@+id/patient_formule_spinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:prompt="@string/select_formule"/>
+
+    <EditText
+        android:id="@+id/patient_depense_edit_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Dépense (XOF)"
+        android:inputType="numberDecimal"
+        android:layout_marginBottom="8dp"/>
+
+</LinearLayout>
